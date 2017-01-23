@@ -8,22 +8,22 @@ SketchUpImporter:
   selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f00000030000000310000003200000033000000340000003500000036000000370000003800000039000000
   assetHash:
     serializedVersion: 2
-    Hash: 84630a3d8b9c47756821f5136c91347b
-  longitude: 2.3330000000000002
-  latitude: 48.866999999999997
+    Hash: ee5405f8a1a5c30e0643ffb126390a11
+  longitude: 2.333
+  latitude: 48.867
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 2.0418458, y: 34.0978012, z: -31.0821667}
-      lookAt: {x: 1.97658265, y: 26.7183743, z: -24.316967}
-      up: {x: -.00711042155, y: .67578119, z: .737067997}
+      position: {x: 2.0418458, y: 34.0978, z: -31.082167}
+      lookAt: {x: 1.9765826, y: 26.718374, z: -24.316967}
+      up: {x: -0.0071104215, y: 0.6757812, z: 0.737068}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
       isPerspective: 1
     scenes: []
-  serializedVersion: 18
+  serializedVersion: 19
   fileIDToRecycleName:
     100000: APU
     100002: Autopilot Eng/Dis
@@ -176,6 +176,7 @@ SketchUpImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -183,16 +184,16 @@ SketchUpImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .0253999997
+    globalScale: 0.0254
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -209,20 +210,19 @@ SketchUpImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
-    normalImportMode: 0
-    tangentImportMode: 1
+    normalImportMode: 1
+    tangentImportMode: 3
   importAnimation: 0
   copyAvatar: 0
   humanDescription:
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
